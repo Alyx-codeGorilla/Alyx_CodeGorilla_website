@@ -11,6 +11,32 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  padding: 100px 50px;
+  width: 800px;
+  margin: 0 auto;
+}
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #ec109b;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orangered;
+}
+
+
 html {
   color: #222;
   font-size: 1em;
