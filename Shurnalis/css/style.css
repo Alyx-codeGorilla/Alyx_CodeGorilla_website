@@ -15,38 +15,7 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
-
-  h1 {
-
-    text-align: center;
-
-  }
-  .container{
-    float: left;
-    width: 28%;
-    margin: 0 auto;
-    padding: 10px;
-    background-color: sandybrown;
-  }
-  .container2{
-      float: right;
-      width: 28%;
-      margin: 0 auto;
-      padding: 10px;
-      background-color: sandybrown;
-  }
 }
-  body {
-    background-color: sandybrown;
-    background-image: url('../img/test.jpg');
-    background-size: cover;
-    background-position: center top -5%;
-    background-repeat: no-repeat;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-  }
 
 /*
  * Remove text-shadow in selection highlight:
