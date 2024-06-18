@@ -38,7 +38,7 @@ html {
 }
   body {
     background-color: sandybrown;
-    background-image: url('tom/img/test.jpg');
+    background-image: url('/tom/img/test.jpg');
     background-size: cover;
     background-position: center top -5%;
     background-repeat: no-repeat;
