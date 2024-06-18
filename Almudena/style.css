@@ -15,7 +15,7 @@ font-size: 40px;
 text-align: center;
 font-family: Courier New;
 }
-#paragraph {
+.paragraph {
 font-family: Garamond;
 font-size: 20px;
 }
