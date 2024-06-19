@@ -23,14 +23,14 @@ html {
   }
   .container{
     float: left;
-    width: 28%;
+    width: 28vw;
     margin: 0 auto;
     padding: 10px;
     background-color: sandybrown;
   }
   .container2{
       float: right;
-      width: 28%;
+      width: 28vw;
       margin: 0 auto;
       padding: 10px;
       background-color: sandybrown;
