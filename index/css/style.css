@@ -1,21 +1,40 @@
-/*! HTML5 Boilerplate v9.0.1 | MIT License | https://html5boilerplate.com/ */
-
-/* main.css 3.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
-/*
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
- */
-
-/* ==========================================================================
-   Base styles: opinionated defaults
-   ========================================================================== */
-
-
+html {
+  font-family: 'Comic Sans MS';
+}
 * {
   margin: 0;
   padding: 0;
 }
+nav {
+  /*background-image: radial-gradient(green, yellow);*/
+  font-size: x-large;
+  display:flex;
+  /*flex-direction: column;*/
+  flex-wrap: wrap;
+  gap: 1em;
+  a {
+    text-shadow: black 0px 0px 10px;
+    transition: rotate 1s;
+    border: 1px dotted red;
+    /*border-radius: 50%;*/
+    padding: 1em;
+    width: 10rem;
+    text-align: center;
+    &:nth-of-type(1) {
+      /*background-color: aliceblue;*/
+    }
+    &:hover {
+      rotate: 360deg;
+    }
+    &.alyx {
+      /*background: green;*/
+    }
+    &.cg {
+      /*background: yellow;*/
+    }
+  }
+}
+
 .container {
   padding: 100px 50px;
   width: 800px;
