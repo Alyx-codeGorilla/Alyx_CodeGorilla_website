@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Comic Sans MS", "Comic Sans", sans-serif;
+}
+
+body {
+    background: linear-gradient(yellowgreen, greenyellow);
+}
+
+#page-container {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+.personal-entry {
+    border: 4px dashed salmon;
+    width: 45vw;
+    height: 80vh;
+    text-align: center;
+}
+
+
+.image-container {
+    display: inline-block;
+    width: 50%;
+    height: 50%;
+    border: 5px solid green;
+    border-radius: 30px;
+    overflow: hidden; /* Ensures that any overflow content is hidden */
+    position: relative; /* Needed for absolute positioning of the image */
+}
+
+.image-container:hover {
+    width: 52%;
+    height: 52%;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* This makes the image cover the container while cropping if necessary */
+    border-radius: inherit; /* Ensures the image inherits the container's border radius */
+}
+
+#welcome {
+    text-shadow: coral 1px 1px;
+    text-align: center;
+    border: 12px dashed rosybrown;
+}
+
+#welcome:hover {
+    border: 12px dotted deeppink;
+}
+
+main {
+    border: 12px dashed lightpink;
+}
+
+main:hover {
+    border: 12px dotted mediumvioletred;
+}
+
+footer {
+    text-align: center;
+    text-shadow: darkred 2px 2px;
+    font-size: 32px;
+    border: 12px dashed pink;
+}
+
+footer:hover {
+    border: 12px dotted rebeccapurple;
+}
+
+img { object-fit: scale-down; border: 3px solid green }
