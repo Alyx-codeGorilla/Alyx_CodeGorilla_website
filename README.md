@@ -8,7 +8,7 @@ We took the following steps to achieve this goal:
 2. Send out GH account name in Teams to be added in a team.
 3. Created a GH team to collaborate
 4. Then we created a repository in the team hub
-5. Go to repository and "clone from the internet" to your..
+5. Go to repository and "clone from the internet" to your local.
 6. Work in Terminal/GH Desktop or IDE to upload folders > copy and paste your folder to the cloned folder,
    Write a summary & description of your change and commit your clone.
 7. Create an HTML file (and a .CSS for it) that will have the links to all our websites

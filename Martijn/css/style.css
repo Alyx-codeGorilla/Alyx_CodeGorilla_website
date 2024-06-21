@@ -2,25 +2,48 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 20px;
-  background-image: url('downloads/achtergrond.jpg');
-  background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-color: #feb112;
   background-size: 80%;
-  background-position: center;
 }
 
 h1 {
   color: #333;
-  font-face: bold;
-  font-size: xx-large;
+  font-weight: bold;
+  font-size: 2em; /* Gebruik em of rem voor consistente schaal */
+  text-align: center;
 }
 
 p {
   font-size: 1.2em;
   font-style: italic;
-  color: #333333;
-  border-style: outset;
-  border-bottom-color: black;
-  border-top-color: darkgrey;
-  border-width: thick;
+  color: #333;
+  border-top: 4px #3e3e78;
+  border-bottom: 4px #3e3e78;
+  padding: 10px; /* Zorg voor ruimte tussen tekst en rand */
+  margin-bottom: 20px; /* Voeg wat ruimte toe tussen paragrafen */
+}
+
+/* Optioneel: Style voor navigatie links */
+nav a {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px 0;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+/* Style voor footer */
+footer {
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+  background-color: #f1f1f1;
+  color: #333;
+  border-top: 1px solid #ccc;
 }
